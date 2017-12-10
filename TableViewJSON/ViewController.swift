@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        arrayA = ["matute", "thor", "canela"]
+        arrayA = ["matute", "thor", "canela pachona y gordita"]
         arrayB = ["300.00", "440.00", "700.00"]
         
         tableViewTours.delegate = self
@@ -61,7 +61,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return 150
     }
 
 }
