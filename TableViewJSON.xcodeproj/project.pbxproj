@@ -13,6 +13,8 @@
 		E144E9B41FDC477D002DE73B /* TableViewJSON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E144E9B21FDC477D002DE73B /* TableViewJSON.xcdatamodeld */; };
 		E144E9B61FDC477D002DE73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E144E9B51FDC477D002DE73B /* Assets.xcassets */; };
 		E144E9B91FDC477D002DE73B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E144E9B71FDC477D002DE73B /* LaunchScreen.storyboard */; };
+		E152A8611FDC824E00E49001 /* ToursTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E152A85F1FDC824E00E49001 /* ToursTableViewCell.swift */; };
+		E152A8621FDC824E00E49001 /* ToursTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E152A8601FDC824E00E49001 /* ToursTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E144E9B51FDC477D002DE73B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E144E9B81FDC477D002DE73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E144E9BA1FDC477D002DE73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E152A85F1FDC824E00E49001 /* ToursTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToursTableViewCell.swift; sourceTree = "<group>"; };
+		E152A8601FDC824E00E49001 /* ToursTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToursTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				E144E9AB1FDC477D002DE73B /* AppDelegate.swift */,
 				E144E9AD1FDC477D002DE73B /* ViewController.swift */,
+				E152A85F1FDC824E00E49001 /* ToursTableViewCell.swift */,
+				E152A8601FDC824E00E49001 /* ToursTableViewCell.xib */,
 				E144E9AF1FDC477D002DE73B /* Main.storyboard */,
 				E144E9B51FDC477D002DE73B /* Assets.xcassets */,
 				E144E9B71FDC477D002DE73B /* LaunchScreen.storyboard */,
@@ -130,6 +136,7 @@
 				E144E9B91FDC477D002DE73B /* LaunchScreen.storyboard in Resources */,
 				E144E9B61FDC477D002DE73B /* Assets.xcassets in Resources */,
 				E144E9B11FDC477D002DE73B /* Main.storyboard in Resources */,
+				E152A8621FDC824E00E49001 /* ToursTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +150,7 @@
 				E144E9AE1FDC477D002DE73B /* ViewController.swift in Sources */,
 				E144E9AC1FDC477D002DE73B /* AppDelegate.swift in Sources */,
 				E144E9B41FDC477D002DE73B /* TableViewJSON.xcdatamodeld in Sources */,
+				E152A8611FDC824E00E49001 /* ToursTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +314,7 @@
 				E144E9BF1FDC477D002DE73B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
